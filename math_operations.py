@@ -11,7 +11,7 @@ quotient_result = 10/5 #division
 modulus_result = 10%3 #modulus, finding the remainder after division
 exponent_result = 10**2 #exponents, raising one number to the power of another
 import math
-squareroot = math.sqrt(25) #squareroot, 
+squareroot = math.sqrt(25) #squareroot
 
 # Print Statements
 print ("An example of addition is (10+5). The answer is:\n", sum_result)
