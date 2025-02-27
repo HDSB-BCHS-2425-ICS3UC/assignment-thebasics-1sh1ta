@@ -17,10 +17,22 @@ shape = shape.lower
 
 if shape == "cube":
     A = float(input("What is the length of an edge of the cube?"))
-    cube_volume = A**3
+    cube_volume = int(A**3)
     print ("The volume of this cube is:", cube_volume)
 
-if shape == "sphere":
+elif shape == "sphere":
     r = float(input("What is the radius of this sphere?"))
-    sphere_volume = 4/3(math.pi)(r)**3
+    sphere_volume = int((4/3)*math.pi*r**3)
     print ("The volume of this sphere is:", sphere_volume)
+
+elif shape ==  "cone":
+    r = float(input("What is the radius of this cone?"))
+    h = float(input("What is the height of this cone?"))
+    cone_volume = int((1/3)*math.pi*r**2*h)
+    print ("The volume of the cone is: ", cone_volume)
+
+elif shape == "cylinder":
+    r = float(input("What is the radius of this cylinder?"))
+    h = float(input("What is the height of this cylinder?"))
+    cylinder_volume = int((1/3)*math.pi*r**2*h)
+    print ("The volume of the cone is: ", cylinder_volume)
