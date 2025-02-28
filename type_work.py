@@ -6,11 +6,11 @@ Difficulty Mark 2
 """
 
 # Below are the definitions of all the variables
-Integer = ("An integer is any whole number. It can be positive or negative, with a limit of up to about 2 billion.")
-Float = ("A float is a number with decimal points.")
-Character = ("A character is a single character. It can be represented as 'char'.")
-Boolean = ("A boolean is a true or false statement.")
-String = ("A string is a combination of characters.")
+Integer = ("An integer is any whole number.\nIt can be positive or negative, with a limit of up to about 2 billion.\nAn example of an integer is '5'.\n")
+Float = ("A float is a number with decimal points.\nAn example of a float is '5.2'\n")
+Character = ("A character is a single character. It can be represented as 'char'.\n")
+Boolean = ("A boolean is a true or false statement.\nAn example of a boolean is:\n'Locked In = True'\n")
+String = ("A string is a combination of characters.\nAn example of a string is 'Hello!'")
 
 # I'm printing the definitions of the variables
 print (Integer)

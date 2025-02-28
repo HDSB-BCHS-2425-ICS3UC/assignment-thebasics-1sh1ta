@@ -10,7 +10,7 @@ The Discriminant is -28
 """
 
 # Requesting user for the "a" input
-print("Enter a then press Enter: ")
+print("Welcome to the discriminant calculator!\nA discriminant is a tool used in quadratics that identifies hwo many roots are in an equation.\nA positive value means that there are two roots (or x-intercepts) in that quadratic equation.\nA value of zero means that there is only one root in that equation.\nA negative value means that there are no roots in the equation.\nThe discriminant uses standard form for quadratics, which looks like: ax^2 + bx + c\nPlease enter the 'a' value then press Enter: ")
 a = int(input())
 
 # Requesting user for the "b" input
@@ -25,5 +25,4 @@ c = int(input())
 discriminant = b**2 - 4*a*c
 
 # Printing the discriminant
-print("The Discriminant is:", discriminant)
-
+print("Your discriminant is:", discriminant,"!")
