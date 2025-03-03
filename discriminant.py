@@ -1,7 +1,7 @@
 
 #Author: Ishita Malhotra
 #Date Modified: March 3, 2025
-#Description: Calculating the discriminant using user input
+#Description: Calculating the discriminant using user input 
 
 
 # Requesting user for the "a" input
