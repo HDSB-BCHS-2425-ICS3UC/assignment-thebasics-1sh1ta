@@ -1,7 +1,7 @@
-"""
-Perform Each math operations you have been shown (store the result in a variable) and print the result to the screen.
-Write a comment above each variable describing what the math operation does
-"""
+
+#Author: Ishita Malhotra
+#Date Modified: March 3, 2025
+#Description: Using math operations and giving examples
 
 # Math Operations
 sum_result = 10+5 #addtion
